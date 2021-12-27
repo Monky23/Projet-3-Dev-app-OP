@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Les films de plein air - Contact</title>
+</head>
+
+<body class="container-fluid">
+    <header class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/lesfilms2pleinair.png" alt="logo de l'association Les films de plein Air" width="50"
+                        height="50" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Actus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="program.html">Programmation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking.html">Réservations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="hero">
+            <h1>Contact "Les films de plein air"</h1>
+            <h2>Des questions, des idées ou un projet n'hésitez pas à nous contacter</h2>
+        </div>
+    </header>
+    <main>
+        <h2>Contact</h2>
+        <form class="contact mb-5">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom<span>*</span></label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="firstname" class="form-label">Prénom<span>*</span></label>
+                <input type="text" class="form-control" id="firstname" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Adresse mail<span>*</span></label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">nous ne partagerons jamais votre adresse mail.</div>
+            </div>
+            <div class="mb-3">
+                <label for="textarea1" class="form-label">Message<span>*</span></label>
+                <textarea class="form-control" id="textarea1" rows="3" required></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox" required>
+                <label class="form-check-label" for="checkbox">Nous avons besoin de votre
+                    consentement<span>*</span></label>
+            </div>
+            <p>
+                En soumettant ce formulaire, j'accepte que les informations saisies dans ce formulaire soient
+                utilisées, exploitées, traitées pour permettre à l'association "Les films de plein air" de me
+                recontacter afin de traiter ma demande.
+            </p>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <p><span>*</span>Tous les champs sont obligatoires.</p>
+        </form>
+        <h2>Localisation</h2>
+        <div id="g-map" class="mb-3">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.9471216211805!2d2.3373560155333304!3d48.878284579289435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e47181b9251%3A0x6adddc0787ebc2a8!2s23%20Rue%20des%20Martyrs%2C%2075009%20Paris%2C%20France!5e0!3m2!1sfr!2sdo!4v1639675618509!5m2!1sfr!2sdo"
+                allowfullscreen="" loading="lazy" id="g-mapin"></iframe>
+        </div>
+    </main>
+    <footer class="row">
+        <div class="col-md-4 foot">
+            <div><i class="fas fa-map-marker-alt"></i>
+                Association 'Les films de plein air'<br>
+                23 Rue des Martyrs<br>
+                75009 Paris
+            </div>
+            <div><i class="fas fa-mobile-alt"></i>
+                +33 6 88 88 88 88
+            </div>
+            <div><i class="fas fa-envelope"></i>
+                <a href="mailto:lesfilms2pleinair@yoohoo.com"
+                    title="envoyez moi un mail en cliquant sur ce lien">lesfilms2pleinair@yoohoo.com</a>
+            </div>
+        </div>
+        <div class="col-md-4 foot">
+            <img src="img/lesfilms2pleinair.png" alt="logo de l'association Les films de plein air" id="logofoot">
+        </div>
+        <div class="col-md-4 foot">
+            <a href="privacypolicy.html" title="lien vers la politique de confidentialités">politique de confidentialités</a><br>
+            <a href="cookiesrules.html" title="lien vers la politique des cookies">politique des cookies</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
